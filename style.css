@@ -1,0 +1,68 @@
+body{
+    background-image: url(nighsky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 10ch;
+}
+.sub-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 540px;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0, 25);
+    background-color: rgba(211, 200, 240, 0.699);
+
+}
+h1{
+    text-align: center;
+    margin: 2ch;
+}
+label{
+    padding-left: 16px;
+    margin-top: 10px;
+    opacity: 0.75;
+}
+input{
+    display: flex;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px 24px;
+    width: 250px;
+    background-color:rgba(255, 255, 255, 0.356);
+}
+.forgot{
+    text-align: center;
+    margin-bottom: 5px;
+}
+button{
+    padding: 12px 24px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 5px;
+    outline: none;
+    border-width: 0;
+    background-color: black;
+    width: 100%;
+    font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+.bottom{
+    justify-content: center;
+    display: flex;
+    margin-top: 1ch;
+}
+.sign-up{
+    padding-left: 5px;
+}
